@@ -1,0 +1,260 @@
+/* ====== Headers ====== */
+.header-default {
+	text-transform: uppercase;
+	border-left: 8px solid #2ad2c9;
+	padding-left: 5px;
+}
+.header-default h3 {
+	font-family: speedway;
+	text-transform: lowercase;
+	font-weight: 500;
+}
+.header-default span {
+	color: #2ad2c9;
+}
+/* ====== Image Rollover ====== */
+
+.image-rollover {
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+.image-rollover .image-caption {
+	display: inline-block;
+	height: 100%;
+	width: 70%;
+	position: absolute;
+	bottom: -89%;
+	left: 0;
+	background-color: rgba(28, 167, 159, 0.54);
+	text-align: center;
+	-o-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	-webkit-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+.image-rollover:hover .image-caption {
+	bottom: 0%;
+}
+.image-rollover:hover .image-caption h4 {
+	margin-top: 370px;
+}
+.image-caption h4 {
+	font-size: 20px;
+	color: #fff;
+	padding: 5px 5px 5px 5px;
+	font-weight: 600;
+}
+/* ====== Social Icons ====== */
+
+.social div {
+	display: inline-block;
+	
+}
+
+.social-info p{
+	color: #fff;
+}
+
+/* ====== Services Area ====== */
+.fa.fa-heart-o {
+	color: #FF002F;
+}
+
+.fa.fa-euro  {
+	color: #3FD719;
+}
+
+.fa.fa-home  {
+	color: #1B8FC8;
+}
+
+/* ====== Contact Us ===== */
+.sql-reply {
+	border-left: 8px solid #2ad2c9;
+}
+
+/* ======= Testimonials ====== */
+.testi-background {
+	
+	border-bottom: 10px inset #2ad2c9;
+}
+
+.testimonial-brief p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* ===== Login Modal ========== */
+
+.adminlogin {
+	margin-bottom: -50px;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.adminlogin a {
+  color: #2ad2c9;
+  text-decoration: none;
+}
+
+.adminlogin ul {
+  padding: 0px;
+  -webkit-transform: translate(-270px, 0);
+  -moz-transform: translate(-270px, 0);
+  -ms-transform: translate(-270px, 0);
+  -o-transform: translate(-270px, 0);
+  transform: translate(-270px, 0);
+}
+.adminlogin ul li {
+  display: block;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 310px;
+  text-align: right;
+  padding: 10px;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  border-radius: 0 30px 30px 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.adminlogin ul li:hover {
+  -webkit-transform: translate(110px, 0);
+  -moz-transform: translate(110px, 0);
+  -ms-transform: translate(110px, 0);
+  -o-transform: translate(110px, 0);
+  transform: translate(110px, 0);
+  background: rgba(255, 255, 255, 1);
+	border-bottom: 2px solid #2b2b2b;
+}
+.adminlogin ul li:hover a {
+  color: #000;
+}
+.adminlogin ul li:hover i {
+  color: #2ad2c9;
+  background: rgba(0, 0, 0, 1);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.adminlogin ul li i {
+  margin-left: 10px;
+  color: #000;
+  background: #2ad2c9;
+  padding: 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+
+/* === === === === === === === */
+/* login modal */
+/* === === === === === === === */
+
+
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+
+}
+
+.loginmodal-submit {
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-size: 14px;
+
+}
+
+.loginmodal-submit:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}

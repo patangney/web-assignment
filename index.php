@@ -1,0 +1,453 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>O'Briens Agency | Real Estate</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="images/icons/favicon.png">
+<!-- filter:  default.css;core.css;skin-teal.css;slider.css;overwrites.css;header.css;footer.css;default.css;custom.css;meanmenu.min.css;responsive.css -->
+<!-- All css files are included here. -->
+<!-- Bootstrap fremwork main css -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- nivo slider CSS -->
+<link rel="stylesheet" href="lib/css/nivo-slider.css"/>
+<!-- This core.css file contents all plugings css file. -->
+<link rel="stylesheet" href="css/core.css">
+<!-- import header /footer / slider -->
+<link rel="stylesheet" href="css/styles/importall.css">
+<!-- Theme main style -->
+<link rel="stylesheet" href="css/styles/overwrites.css">
+<!-- Responsive css -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Color Changes -->
+<link href="css/color/color-core.css" data-style="styles" rel="stylesheet">
+<!-- User style -->
+<link rel="stylesheet" href="css/custom.css">
+<!-- social icons -->
+<link rel="stylesheet" href="css/social-icons.css">
+
+<!-- Modernizr JS -->
+<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+<!-- Body main wrapper start -->
+<div class="wrapper">
+  <!-- HEADER AREA START -->
+  <header class="header-area header-wrapper">
+    <div class="header-top-bar bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="logo"> <a href="index.php"> <img src="images/logo/logo.png" alt="O Briens Logo"> </a> </div>
+          </div>
+          <div class="col-md-6 hidden-sm hidden-xs">
+            <div class="company-info clearfix">
+              <div class="company-info-item">
+                <div class="header-icon"> <img src="images/icons/phone.png" alt=""> </div>
+                <div class="header-info">
+                  <h6><a href="tel:+353852240880">Call Us</a></h6>
+                  <p>We are open 9 am - 6pm</p>
+                </div>
+              </div>
+              <div class="company-info-item">
+                <div class="header-icon"> <img src="images/icons/mail-open.png" alt=""> </div>
+                <div class="header-info">
+                  <h6><a href="mailto:info@obriensagency.com">info@obriensagency.com</a></h6>
+                  <p>You can mail us</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="header-search clearfix">
+              <form action="#">
+                <button class="search-icon" type="submit"> <img src="images/icons/search.png" alt=""> </button>
+                <input type="text" placeholder="Search...">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sticky-header" class="header-middle-area  transparent-header hidden-xs">
+      <div class="container">
+        <div class="full-width-mega-drop-menu">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="sticky-logo"> <a href="index.php"> <img src="images/logo/logo.png" alt=""> </a> </div>
+              <nav id="primary-menu">
+                <ul class="main-menu text-center">
+                  <li><a href="index.php">Home</a> </li>
+					<li><a href="#">Properties</a>
+                    <ul class="drop-menu">
+                      <li><a href="displayallproperties.php">All Properties</a></li>
+                      <li><a href="displayproperties.php?categoryid=1">Residential</a></li>
+                      <li><a href="displayproperties.php?categoryid=2">Commercial</a></li>
+                      <li><a href="displayproperties.php?categoryid=3">Sites</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="testimonials.php">Testimonials</a> </li>
+                  <li><a href="aboutus.html">About</a> </li>
+                  <li><a href="contact.php">Contact Us</a> </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- HEADER AREA END -->
+  <!-- MOBILE MENU AREA START -->
+  <div class="mobile-menu-area hidden-sm hidden-md hidden-lg">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="mobile-menu">
+            <nav id="dropdown">
+              <ul>
+                <li><a href="index.php">Home</a> </li>
+                <li><a href="#">Properties</a>
+                  <ul>
+                     <li><a href="displayallproperties.php">All Properties</a></li>
+                      <li><a href="displayproperties.php?categoryid=1">Residential</a></li>
+                      <li><a href="displayproperties.php?categoryid=2">Commercial</a></li>
+                      <li><a href="displayproperties.php?categoryid=3">Sites</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="testimonials.php">Testimonials</a> </li>
+                  <li><a href="aboutus.html">About</a> </li>
+                  <li><a href="contact.php">Contact Us</a> </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MOBILE MENU AREA END -->
+  <!-- SLIDER SECTION START -->
+  <div class="slider-1 pos-relative slider-overlay">
+    <div class="bend niceties preview-1">
+      <div id="ensign-nivoslider-3" class="slides"> <img src="images/slider/1.jpg" alt="" title="#slider-direction-1"  /> <img src="images/slider/2.jpg" alt="" title="#slider-direction-2"  /> <img src="images/slider/3.jpg" alt="" title="#slider-direction-3"  /> </div>
+      <!-- direction 1 -->
+      <div id="slider-direction-1" class="slider-direction">
+        <div class="slider-content text-center">
+          <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4 class="slider-1-title-1">Welcome to <span>O Briens</span></h4>
+          </div>
+          <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+            <h1 class="slider-1-title-2">FIND YOUR DREAM HOUSE WITH US</h1>
+          </div>
+          <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+            <p class="slider-1-desc">At OBriens, our team are dedicated to help you find your dream home</p>
+          </div>
+          <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s"> <a class="slider-button mt-40" href="#">Read More</a> </div>
+        </div>
+      </div>
+      <!-- direction 2 -->
+      <div id="slider-direction-2" class="slider-direction">
+        <div class="slider-content text-left">
+          <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4 class="slider-1-title-1">Welcome to <span>O Briens</span></h4>
+          </div>
+          <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+            <h1 class="slider-1-title-2">IF YOU NEED TO BUY OR SELL</h1>
+          </div>
+          <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+            <p class="slider-1-desc">We do both well</p>
+          </div>
+          <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s"> <a class="slider-button mt-40" href="#">Read More</a> </div>
+        </div>
+      </div>
+      <!-- direction 2 -->
+      <div id="slider-direction-3" class="slider-direction">
+        <div class="slider-content text-right">
+          <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4 class="slider-1-title-1">Welcome to <span>O Briens</span></h4>
+          </div>
+          <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+            <h1 class="slider-1-title-2">E.T TRIED TO CALL HOME</h1>
+          </div>
+          <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+            <p class="slider-1-desc">But then he called us</p>
+          </div>
+          <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s"> <a class="slider-button mt-40" href="#">Read More</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SLIDER SECTION END -->
+  <!-- Start page content -->
+  <section id="page-content" class="page-wrapper">
+    <!-- WELCOME AREA START -->
+    <div class="welcome-obriens-area ptb-115">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-xs-12">
+            <div class="wow bounceInLeft  section-title mb-30 header-default" data-wow-delay="0.5s">
+              <h2>Beautiful Places to <span>Live</span></h2>
+              <h3>helping families make the right move </h3>
+            </div>
+            <div class="welcome-obriens-info">
+              <p>At <span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">O'Briens</span>, our experienced team of agents at OBriens agency are ready to help you find that perfect family home, we take pride in reaching customer expectations.</p>
+              <p>Friendly, helpful, professional staff are waiting to provide you with information and answer any questions </p>
+              <p> </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <div class="welcome-image image-rollover"> <img src="images/welcome/bedroom.jpg" alt="">
+              <div class="image-caption">
+                <h4>Colourful places to live and play</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- WELCOME AREA END -->
+    <!-- TESTIMONIAL AREA START -->
+            <div class="testimonial-area pb-115">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="testimonial">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-9">
+                                        <div class="section-title mb-30 header-default">
+                                            <h2>Some of our happy <span>clients</span></h2>
+                                            <h3>what our customers have to say</h3>
+                                        </div>
+                                        <div class="testimonial-carousel dots-right-btm">
+                                            <!-- testimonial-item -->
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-brief">
+                                                    <p><span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">Sheltek</span> is the best theme for  elit, sed do eiusmod tempor dolor sit amet, conse ctetur adipiscing elit, ed do eiusmod tempor incididunt ut labore et lorna aliquatd minim veniam, quis nostrud exercitation oris nisi ut aliquip ex ea commodo equat. Duis aute irure dolo. liquatd minim veniam, quis nostrud exercitation oris nisi ut aliquip ex ea commodo equat. Duis aute irure dolo uis nostrud exercitation</p>
+                                                </div>
+                                                <h6>Zasica Luci, <span>CEO</span></h6>
+                                            </div>
+                                            <!-- testimonial-item -->
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-brief">
+                                                    <p><span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">Sheltek</span> is the best theme for  elit, sed do eiusmod tempor dolor sit amet, conse ctetur adipiscing elit, ed do eiusmod tempor incididunt ut labore et lorna aliquatd minim veniam, quis nostrud exercitation oris nisi ut aliquip ex ea commodo equat. Duis aute irure dolo. liquatd minim veniam, quis nostrud exercitation oris nisi ut aliquip ex ea commodo equat. Duis aute irure dolo uis nostrud exercitation</p>
+                                                </div>
+                                                <h6>Zasica Luci, <span>CEO</span></h6>
+                                            </div>
+                                            <!-- testimonial-item -->
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-brief">
+                                                    <p><span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">Sheltek</span> is the best theme for  elit, sed do eiusmod tempor dolor sit amet, conse ctetur adipiscing elit, ed do eiusmod tempor incididunt ut labore et lorna aliquatd minim veniam, quis nostrud exercitation oris nisi ut aliquip ex ea commodo equat. Duis aute irure dolo. liquatd minim veniam, quis nostrud exercitation oris nisi ut aliquip ex ea commodo equat. Duis aute irure dolo uis nostrud exercitation</p>
+                                                </div>
+                                                <h6>Zasica Luci, <span>CEO</span></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-3">
+                                        <div class="testimonial-image">
+                                            <img src="images/others/thumbsup.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- TESTIMONIAL AREA END -->
+    
+    
+    
+    
+    <!-- FEATURES AREA START -->
+    <div class="features-area fix">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-7 col-md-offset-5">
+            <div class="features-info bg-gray">
+              <div class="wow bounceInRight section-title mb-30 header-default" data-wow-delay="0.5s">
+                <h2>Our Services</h2>
+                <h3>Let Us, help you</h3>
+              </div>
+              <div class="features-desc">
+                <p>At <span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">O'Briens</span>, we exist to honourably serve the needs of our customers by providing excellent communication between buyer and seller, let us do take the stress out of finding your new home.</p>
+              </div>
+              <div class="features-include">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-sm-4">
+                    <div class="features-include-list">
+                      <h6><i class="fa fa-euro fa-2x"></i> Sell Your Home</h6>
+                      <p>Let us take care of the paperwork</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-4">
+                    <div class="features-include-list">
+                      <h6><i class="fa fa-home fa-2x"></i> Sell Your Home</h6>
+                      <p>Let us take care of the paperwork</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-4">
+                    <div class="features-include-list">
+                      <h6><i class="fa fa-heart-o fa-2x"></i> Sell Your Home</h6>
+                      <p>Let us take care of the paperwork</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FEATURES AREA END -->
+    
+    <!-- BOOKING AREA START -->
+    <div class="bookarea ptb-110 wow fadeIn" data-wow-delay="0.5s">
+    	<div class="booking-area bg-1 call-to-bg plr-140 pt-75">
+        	<div class="container-fluid">
+            	<div class="row">
+                	<div class="col-md-3 col-sm-4 col-xs-12">
+                    	<div class="section-title text-white">
+                        	<h3>BOOK YOUR</h3>
+                         	<h1>APPOINTMENT TODAY</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-8 col-xs-12">
+                    	<div class="booking-conternt clearfix">
+                        	<div class="book-house text-white">
+                            	<h2>OUR AGENTS ARE HERE TO ANSWER YOUR QUESTIONS </h2>
+                                <h2 class="h5">CALL US ON : 1800 123 4567  </h2>
+                            </div>
+                           	<div class="booking-imgae">
+                            	<img src="images/others/girlrep.png" alt="">
+                        	</div>
+                        </div>
+                   	</div>
+                </div>
+        	</div>
+   		</div>
+   </div>
+   <!-- BOOKING AREA END -->
+    
+  </section>
+  <!-- End page content -->
+  <!-- Start footer area -->
+  <footer id="footer" class="footer-area bg-2 bg-opacity-black-70">
+        <div class="footer-top pt-110 pb-80">
+     <!-- admin button -->
+	  <div class="adminlogin">
+	  	<ul>
+	  		<li>
+	  			<a href="adminlogin.php">Admin Login
+	  				<i class="fa fa-sign-in"></i>
+	  			</a>
+	  		</li>
+	  	</ul>
+	  </div>
+      <div class="container">
+        <div class="row">
+         	  <!-- admin modal -->
+	  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+	  	<div class="modal-dialog">
+	  		<div class="loginmodal-container">
+	  			<h1>Administration Login</h1>
+	  			  <form action="login_action.php" method="POST">
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				  </form>
+	  			
+	  		</div>
+	  	</div>
+	  </div>
+          <!-- footer-address -->
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="footer-widget">
+              <h6 class="footer-titel">GET IN TOUCH</h6>
+              <ul class="footer-address">
+                <li>
+                  <div class="address-icon"> <img src="images/icons/location-2.png" alt=""> </div>
+                  <div class="address-info"> <span>Unit 5, Main Street, Killarney</span> <span>Co Kerry, Ireland</span> </div>
+                </li>
+                <li>
+                  <div class="address-icon"> <img src="images/icons/phone-3.png" alt=""> </div>
+                  <div class="address-info"> <span>Telephone: 1800 123 4567</span> <span>Telephone: +353 64 1234567</span> </div>
+                </li>
+                <li>
+                  <div class="address-icon"> <img src="images/icons/world.png" alt=""> </div>
+                  <div class="address-info"> <span>Email: info@obriensagency.com</span> <span>Web :<a href="#" target="_blank"> www.obriensagency.com</a></span> </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- footer-social icons -->
+          <div class="col-lg-6 col-md-5 hidden-sm col-xs-12">
+            <div class="footer-widget middle">
+              <h6 class="footer-titel">Social Media</h6>
+              <div class="social">
+                <div class="facebook-icon mediaicons"><a href="http://www.facebook.com" target="_blank"></a></div>
+                <div class="linkedin-icon mediaicons"><a href="http://www.linkedin.com" target="_blank"></a></div>
+                <div class="pinterest-icon mediaicons"><a href="http://www.pintrest.com" target="_blank"></a></div>
+                <div class="instagram-icon mediaicons"><a href="http://www.pintrest.com" target="_blank"></a></div>
+                <div class="plus-icon mediaicons"><a href="http://www.plus.google.com" target="_blank"></a></div>
+              </div>
+              <div class="social-info">
+                <p>Don't forget to contact us on social media!</p>
+              </div>
+            </div>
+          </div>
+          <!-- footer-contact -->
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="footer-widget">
+              <h6 class="footer-titel">QUICK CONTACT</h6>
+              <div class="footer-contact">
+                <p>A agent will get back to you as soon as possible</p>
+					<form  id="quickreply" action="contactprocess.php" method="post">
+					  <input type="text" name="contact_name" placeholder="Your name">
+					  <input type="email" name="contact_email" placeholder="Your email address">
+					  <input type="tel" name="contact_mobile" placeholder="Your phone number">
+					  <textarea name="content" placeholder="What can we help you with ?"></textarea>
+					  <button type="submit" value="send">Send</button>
+					</form>
+                <p class="form-messege"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="copyright text-center">
+              <p>Copyright &copy; 2017 <a href="#"><b>O'Briens Agency</b></a>. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End footer area -->
+</div>
+<!-- Body main wrapper end --> 
+
+<!-- Placed js at the end of the document so the pages load faster --> 
+
+<!-- jquery latest version --> 
+<script src="js/vendor/jquery-3.1.1.min.js"></script> 
+<!-- Bootstrap framework js --> 
+<script src="js/bootstrap.min.js"></script> 
+<!-- Nivo slider js --> 
+<script src="lib/js/jquery.nivo.slider.js"></script> 
+<!-- All js plugins included in this file. --> 
+<script src="js/plugins.js"></script> 
+<!-- Main js file that contents all jQuery plugins activation. --> 
+<script src="js/main.js"></script>
+</body>
+</html>
